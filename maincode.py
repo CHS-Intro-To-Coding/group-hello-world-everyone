@@ -3,6 +3,9 @@
 # name you method with you initials at the beginning of the method
 # use my code as an example
 
+#LT's hello world method
+def ltMyPrintMethod():
+  print("hello from Lance Taquet")
 
 
 
