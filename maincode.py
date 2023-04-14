@@ -4,11 +4,9 @@
 # use my code as an example
 
 
-def phMyPrintMethod()
+def phMyPrintMethod():
   print ("hello from Pat")
-def Main():
-  phMyPrintMethod()
-phMain()
+
 
 
 
