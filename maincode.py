@@ -7,7 +7,9 @@
 def ltMyPrintMethod():
   print("hello from Lance Taquet")
 
-
+#AN's hello world method
+def beep():
+  print("Hello! From Ash")
 
 
 
