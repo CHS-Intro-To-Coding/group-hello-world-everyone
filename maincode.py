@@ -21,3 +21,6 @@ def gnMyPrintMethod ():
 # we will use this method to print out all our introductions
 def main ():
   gnMyPrintMethod()
+
+# this is the command that will run our introductions
+main()
