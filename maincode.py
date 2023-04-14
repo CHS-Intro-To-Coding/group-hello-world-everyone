@@ -3,13 +3,8 @@
 # name you method with you initials at the beginning of the method
 # use my code as an example
 
-#LT's hello world method
-def ltMyPrintMethod():
-  print("hello from Lance Taquet")
 
-#AN's hello world method
-def beep():
-  print("Hello! From Ash")
+
 
 
 
@@ -29,3 +24,10 @@ def main ():
 
 # this is the command that will run our introductions
 main()
+
+
+def phMyPrintMethod()
+  print ("hello from Pat")
+def phMain():
+  phMyPrintMethod()
+phMain()
