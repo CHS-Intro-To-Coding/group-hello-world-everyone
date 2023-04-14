@@ -20,7 +20,11 @@ def ambrose():
 
 # Dr. N.'s hello world method
 def gnMyPrintMethod ():
-  print ("hello from Dr. Nielsen")
+  print ("hello from Dr. Nielsen") 
+  
+def myprint (): 
+  print ("Hello guys it's dom") 
+ 
  
 # we will use this method to print out all our introductions
 def main ():
