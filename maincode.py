@@ -9,7 +9,8 @@
 
 
 
-
+def ambrose():
+  print ("hi this is ambrose")
 
 
 #   do NOT add any code below this line ! ! ! ! ! ! ! ! ! ! ! ! ! 
