@@ -7,7 +7,8 @@
 def phMyPrintMethod():
   print ("hello from Pat")
 
-
+def ltMyPrintMethod():
+   print("hello from Lance Taquet")
 
 
 
