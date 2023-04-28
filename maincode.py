@@ -32,9 +32,10 @@ def ltMyPrintMethod():
 # PAT only
 def phMyPrintMethod():
   print ("hello from Pat")
-# end PAT
 def screw():
   print("this is random")
+  # end PAT
+
 #   do NOT add any code below this line ! ! ! ! ! ! ! ! ! ! ! ! ! 
 # DR N only ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! 
 
