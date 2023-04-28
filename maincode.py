@@ -12,6 +12,8 @@ def ambrose():
 # end ASHLEY
 
 # AVERY only
+def alprintmethod():
+  print("hola amigos, soy avery")
 # end AVERY
 
 # DOM only
