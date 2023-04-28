@@ -9,6 +9,7 @@ def ambrose():
 # end AMBROSE
 
 # ASHLEY only
+BEEP = BEEP
 # end ASHLEY
 
 # AVERY only
