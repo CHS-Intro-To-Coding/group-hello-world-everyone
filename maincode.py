@@ -33,7 +33,8 @@ def ltMyPrintMethod():
 def phMyPrintMethod():
   print ("hello from Pat")
 # end PAT
-
+def screw():
+  print("this is random")
 #   do NOT add any code below this line ! ! ! ! ! ! ! ! ! ! ! ! ! 
 # DR N only ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! 
 
