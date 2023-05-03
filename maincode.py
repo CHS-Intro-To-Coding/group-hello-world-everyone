@@ -1,52 +1,17 @@
-# you will add your own method here.
-# first add a comment
-# name you method with you initials at the beginning of the method
-# use my code as an example
+import pygame 
+from pygame.locals import *
 
-# AMBROSE only
-def ambrose():
-  print ("hi this is ambrose")
-# end AMBROSE
+pygame.init() 
 
-# ASHLEY only
-BEEP = BEEP
-# end ASHLEY
+screen_width=1000 
+screen_height=1000 
 
-# AVERY only
-def alprintmethod():
-  print("hola amigos, soy avery")
-# end AVERY
+screen = pygame.display.set_mode((screen_width,screen_height)) 
+pygame.display.set_caption( "AP comp sci") 
 
-# DOM only
-def myprint (): 
-  print ("Hello guys it's dom") 
- # end DOM
-
-# JOE only
-# end JOE
-
-# LANCE only
-def ltMyPrintMethod():
-   print("hello from Lance Taquet")
-# end LANCE
-
-# PAT only
-def phMyPrintMethod():
-  print ("hello from Pat")
-def screw():
-  print("this is random")
-  # end PAT
-
-#   do NOT add any code below this line ! ! ! ! ! ! ! ! ! ! ! ! ! 
-# DR N only ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! 
-
-# Dr. N.'s hello world method
-def gnMyPrintMethod ():
-  print ("hello from Dr. Nielsen") 
- 
-# we will use this method to print out all our introductions
-def main ():
-  gnMyPrintMethod()
-
-# this is the command that will run our introductions
-main()
+running= True  
+while running: 
+    for event in pygame.event.get(): 
+        if event.type == pygame.QUIT: 
+            running = False 
+pygame.quit()
