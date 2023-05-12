@@ -6,10 +6,10 @@ class Text ():
         # set font size
         myFont = pygame.font.SysFont("Console",size)
         # turn text into image
-        myImage = myFont.render(textData,True,color)
+        self.myImage = myFont.render(textData,True,color)
 
-        imgWide = myImage.get_width()
-        imgHigh = myImage.get_height()
+        imgWide = self.myImage.get_width()
+        imgHigh = self.myImage.get_height()
         
         # values for correct border placement
         gap = (size/10)
@@ -19,7 +19,7 @@ class Text ():
         bkHigh = imgHigh + (2*border)
 
         # draw background rectangle
-        myRect = pygame.rect.Rect(bkPosX,bkPosY,bkWide,bkHigh)
-        pygame.draw.rect(screen,bk_color,myRect)
+        self.myRect = pygame.rect.Rect(bkPosX,bkPosY,bkWide,bkHigh)
+        pygame.draw.rect(screen,bk_color,self.myRect)
         # draw the text
-        screen.blit(myImage, (posX,posY))
+        screen.blit(self.myImage, (posX,posY))
